@@ -1,0 +1,17 @@
+{
+  "name": "snar",
+  "description": "Tiny wrapper around LitElement to create reactive components",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/snar.js",
+  "scripts": {
+    "serve": "vite"
+  },
+  "devDependencies": {
+    "lit": "^2.7.0",
+    "prettier": "^2.8.7",
+    "text-to-svg": "^3.1.5",
+    "vite": "^4.2.1",
+    "wireit": "^0.9.5"
+  }
+}

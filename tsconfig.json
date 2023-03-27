@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "NodeNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "vite/client"
+    ]
+  }
+}
