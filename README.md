@@ -46,7 +46,7 @@ component.value = 1; // `updated` function is called
 
 ## Why not using LitElement directly?
 
-If you just want to benefit using the reactive feature of the `ReactiveElement` in Lit, it is likely you don't want to bother with these steps:
+If you just want to benefit from using the reactive feature of `ReactiveElement` in Lit, it is likely you don't want to bother with these steps:
 - Register a class as a custom element.
 - Think of and give it a name.
 - Care to connect it somewhere into the DOM.
