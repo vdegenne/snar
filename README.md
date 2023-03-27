@@ -14,7 +14,7 @@
 Snar is a *micro*<sup>1</sup> wrapper built around [[ LitElement ]](https://github.com/lit/lit) that lets you quickly write reactive components.
 
 While **LitElement** provides a neat way/syntax for writing *reactive* elements, it is hardcoded in the definition of its base class, which is tighly bound to an HTMLElement, that means you're left with no choice but to define a custom element if you want to use that feature.  
-**Snar** uses LitElement in the background to hide this definition process so you can directly jump in and focus on writing your reactive component instead.
+**Snar** uses LitElement in the background to hide this definition process so you can directly jump in and focus on writing your reactive components.
 
 
 
@@ -170,6 +170,8 @@ Also it makes writing app's parts and custom elements feel more seamless.
 
 As the web seems to be moving forward hyper modularity.
 
-I made this small lib but I wished Lit had this feature built-in.
+I made this small lib but I wish Lit had this feature built-in.
 
-Also made with ❤️
+## Space for improvements
+- Removing the need for a decorator
+- Removing LitElement as a dependency. That is, writing the same logic as LitElement base class but without the need for a templating system and `HTMLElement` extended class. That would make Snar be usable inside any project (not just inside browsers).
