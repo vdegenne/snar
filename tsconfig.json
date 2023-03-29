@@ -2,12 +2,23 @@
   "compilerOptions": {
     "target": "es2019",
     "module": "NodeNext",
-    "moduleResolution": "node",
+    "moduleResolution": "NodeNext",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "inlineSources": true,
     "resolveJsonModule": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
+    "outDir": "./",
+    "rootDir": "./src",
+    "strict": true,
     "types": [
       "vite/client"
     ]
-  }
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": []
 }

@@ -11,7 +11,7 @@ function generateRandomKey() {
 export function component(clazz: CustomElementConstructor) {
   const newClass = class extends clazz {
     constructor() {
-      super();
+      super(...arguments);
       document.body.prepend(this);
     }
   };

@@ -1,0 +1,1 @@
+{"version":3,"file":"snar.d.ts","sourceRoot":"","sources":["src/snar.ts"],"names":[],"mappings":"AAAA,OAAO,EAAM,UAAU,EAAU,MAAM,KAAK,CAAC;AAC7C,OAAO,EAAC,KAAK,EAAC,MAAM,mBAAmB,CAAC;AASxC,wBAAgB,SAAS,CAAC,KAAK,EAAE,wBAAwB,OASxD;AAED,qBAAa,IAAK,SAAQ,UAAU;IAClC,MAAM,CAAC,MAAM,0BAIX;IAEF,MAAM;CAgBP"}
