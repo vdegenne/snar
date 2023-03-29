@@ -1,2 +1,7 @@
 node_modules
 .wireit
+
+snar.js
+snar.js.map
+snar.d.ts
+snar.d.ts.map
