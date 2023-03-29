@@ -1,7 +1,11 @@
 {
   "name": "snar",
-  "description": "Tiny wrapper around LitElement to create reactive components",
-  "version": "1.0.3",
+  "description": "Wrapper around LitElement for building reactive components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vdegenne/snar.git"
+  },
+  "version": "1.0.4",
   "main": "snar.js",
   "module": "snar.js",
   "type": "module",
